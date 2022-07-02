@@ -21,11 +21,13 @@ nav{
     height: 600px;
 }
 .home .discrip {
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     color: #000000;
     text-align: center;
     background-color: white;
-    Margin-top: 512px;
+    top: 512px;
+    /* Margin-top: 512px; */
     margin-left: 25%;
     margin-right: 25%;
     padding: 10px 36px;
@@ -45,5 +47,16 @@ nav{
     padding: 14px 36px;
 }
 .service{
-    position: absolute;
+    position: relative;
+    margin-top: 628px;
+    padding: 0 100px 0 100px;
+}
+.service .headname{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+hr{
+    margin-top: -20px;
+    color: rgba(228, 224, 224, 0.527);
 }
