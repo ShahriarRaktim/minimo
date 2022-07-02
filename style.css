@@ -60,3 +60,27 @@ hr{
     margin-top: -20px;
     color: rgba(228, 224, 224, 0.527);
 }
+.service img{
+    width: 100%;
+}
+.service-card {
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+.card{
+    margin: 43px;
+}
+.card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.card a{
+    color: black;
+    font-weight: 500;
+    size: 14px;
+}
+.service-2{
+    margin-top: 100px;
+}
