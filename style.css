@@ -23,7 +23,7 @@ nav{
     width: 100%;
     
 }
-.home .discrip {
+.home .discrip{
     color: #000000;
     text-align: center;
     background-color: white;
@@ -34,13 +34,19 @@ nav{
     padding: 10px 36px;
     border: 1px solid #D2D2D2;
 }
-.home .discrip h5{
-    color: gray;
-}
-.home .discrip p{
+.home .discrip .paragraph{
     text-align: start;
 }
-.home .discrip button{
+#photography{
+    color: gray;
+}
+.home .discrip a{
+    text-decoration: none;
+    color: #737373;
+    font-weight: 600;
+    font-size: 18px;
+}
+.home .discrip button {
     text-decoration: none;
     background-color: white;
     border: 1px solid black;
@@ -55,8 +61,15 @@ nav{
     justify-content: space-between;
     color: gray;
 }
+.headname a {
+    color: black;
+    text-decoration: none;
+}
+.headname p{
+    margin-bottom: 20px;
+}
 hr{
-    margin-top: -20px;
+    margin-top: -8px;
     color: rgba(228, 224, 224, 0.527);
 }
 .service img{
